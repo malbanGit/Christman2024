@@ -270,7 +270,7 @@ introStageNotDone
                     ldb      #-$28 
                     jsr      sync_Print_Str_d_16 
 
-                    ldu      #alex 
+                    ldu      #all 
                     ldd      -2,u 
                     jsr      sync_Print_Str_d_16 
 
@@ -286,6 +286,9 @@ xmas
 for 
                     db       "FOR", $80
                     db       -$38, -$50 
+all 
+                    db       "ALL", $80
+                    db       -$38, -$58 
 torben 
                     db       "TORBEN", $80
                     db       -$38, -$58 
